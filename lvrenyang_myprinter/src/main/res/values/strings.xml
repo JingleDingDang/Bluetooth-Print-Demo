@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyPrinter</string>
+    <string name="menu_exit">Exit</string>
+    <string name="fontsize">Font size</string>
+    <string name="fontsize_12x24">12x24</string>
+    <string name="fontsize_9x17">9x17</string>
+    <string name="darkness">Darkness</string>
+    <string name="scaletimes">Enlargement factor</string>
+    <string name="width">Width</string>
+    <string name="height">Height</string>
+    <string name="blackwhitereverse">Reverse display black and white</string>
+    <string name="underline">Underline</string>
+    <string name="light">Light</string>
+    <string name="darkness_standard">Normal</string>
+    <string name="darkness_dark">Dark</string>
+    <string name="scaletimes_0">No enlarge</string>
+    <string name="bold">Bold</string>
+    <string name="underline1">1 dot underline</string>
+    <string name="underline2">2 dot underline</string>
+    <string name="textalign">Alignment</string>
+    <string name="textalign_left">Left aligned</string>
+    <string name="textalign_center">Center aligned</string>
+    <string name="textalign_right">Right aligned</string>
+    <string name="scaletimes_width_0">No enlarge width</string>
+    <string name="scaletimes_height_0">No enlarge height</string>
+    <string name="upsidedownprint">Invert printing</string>
+    <string name="turnright90">Turn right 90 degree</string>
+    <string name="lineheight">Line height</string>
+    <string name="rightspace">Right space</string>
+    <string name="barcode">Barcode</string>
+    <string name="qrcode">QRCode</string>
+    <string name="text">Plain text</string>
+    <string name="barcodetype">Barcode type</string>
+    <string name="startorgx">Start position</string>
+    <string name="barcodewidth">Barcode width</string>
+    <string name="barcodeheight">Barcode height</string>
+    <string name="barcodefonttype">Barcode text font type</string>
+    <string name="barcodefontposition">Barcode text position</string>
+    <string name="qrcodestartorgx">QRCode start position</string>
+    <string name="qrcodetype">QRCode type</string>
+    <string name="qrcodewidth">QRCode width</string>
+    <string name="errorcorrectionlevel">Error level</string>
+
+    <!-- activity_barcode.xml -->
+    <string name="printbarcode">Print barcode</string>
+
+    <!-- activity_checkkey.xml -->
+    <string name="checkkeyhint">Please input 8 chars key for check</string>
+    <string name="verify">Verify</string>
+
+    <!-- activity_cmd.xml -->
+    <string name="send">Send</string>
+    <string name="clearsend">Clear send</string>
+    <string name="clearreceive">Clear receive</string>
+    <string name="recv">Recv:</string>
+
+    <!-- activity_connectbtmac.xml -->
+    <string name="inputbtmachint">Input bt mac. eg:01:23:45:67:89:AB</string>
+    <string name="connectbtmacaddress">Connect printer bt mac</string>
+
+    <!-- activity_connectbtpaired.xml -->
+
+
+    <!-- activity_connectip.xml -->
+    <string name="ip">IP</string>
+    <string name="port">Port</string>
+    <string name="connect">Connect</string>
+
+    <!-- activity_connectusb.xml -->
+
+
+    <!-- activity_curve.xml -->
+    <string name="printcurve">Print curve</string>
+
+    <!-- activity_cutter.xml -->
+    <string name="fullcut">Full cut</string>
+    <string name="halfcut">Half cut</string>
+    <string name="feedandcut">Feed and cut</string>
+
+    <!-- activity_form.xml -->
+    <string name="printform">Print form</string>
+
+    <!-- activity_formattext.xml -->
+    <string name="printenglishstring">Print English chars.</string>
+    <string name="printchinesestring">Print Chinese chars.</string>
+    <string name="printrussianstring">Print Russian chars.</string>
+
+    <!-- activity_picture.xml -->
+    <string name="paperwidthsem">Paper width:</string>
+    <string name="paperwidth">Paper width</string>
+    <string name="paperwidth2inch">2in</string>
+    <string name="paperwidth3inch">3in</string>
+    <string name="paperwidth4inch">4in</string>
+    <string name="printpicture">Print picture</string>
+    <string name="contentdescription"></string>
+
+    <!-- activity_qrcode.xml -->
+    <string name="printqrcode">Print qrcode</string>
+    <string name="welcometouse">Welcome to use</string>
+    <string name="printepsonqrcode">Use epson command</string>
+	<string name="size">Size</string>
+    
+    <!-- activity_searchbt.xml -->
+    <string name="search">Search</string>
+
+    <!-- activity_setkey.xml -->
+    <string name="searchkeyhint">Input 8 chars key for setting</string>
+    <string name="set">Set</string>
+
+    <!-- lay1.xml -->
+    <string name="picture">Picture</string>
+    <string name="binaryimage">Binary image</string>
+    <string name="curve">Curve</string>
+    <string name="formattext">Format text</string>
+    <string name="form">Form</string>
+
+    <!-- lay2.xml -->
+    <string name="webprint">Web print</string>
+    <string name="browser">Browser</string>
+
+    <!-- lay3.xml -->
+    <string name="sendcmd">Send commad</string>
+    <string name="cuttercmd">Cutter command</string>
+
+    <!-- lay4.xml -->
+    <string name="connectprinterbtmac">Connect printer bt mac</string>
+    <string name="connectpairedprinter">Connect paired printer</string>
+    <string name="searchprinterthenconnect">Search printer and connect</string>
+    <string name="searchble">Search And Connect BT4.0 Printer</string>
+    <string name="connectnetprinter">Connect net printer</string>
+    <string name="connectusbprinter">Connect usb printer</string>
+    <string name="setprinterpara">Set printer para</string>
+    <string name="updateprinterprogram">Update printer program</string>
+    <string name="setkey">Set key</string>
+    <string name="verifykey">Verify key</string>
+    <string name="setbtpara">Set Printer Bt Para</string>
+
+    <!-- myprinter_main.xml -->
+    <string name="textandpicture">Txt</string>
+    <string name="web">Web</string>
+    <string name="command">Cmd</string>
+    <string name="settings">Set</string>
+
+    <!-- start_private.xml -->
+    <string name="welcomes">Welcome</string>
+
+    <!-- xxxactivity.java -->
+    <string name="toast_success">Success</string>
+    <string name="toast_fail">Fail</string>
+    <string name="toast_notconnect">Please connect printer</string>
+    <string name="toast_usbpermit">Please permit app use usb and reclick this button</string>
+    <string name="updateprogram">Update Program</string>
+    <string name="utf8">UTF8</string>
+    <string name="gbk">GBK</string>
+    <string name="korea">KOREA</string>
+    <string name="printing">Printing</string>
+    <string name="printernotconnected">Printer not connected</string>
+
+    <string name="sendtouart">Send To Uart</string>
+    <string name="sendtext">Send Text</string>
+    
+    <string name="menu_setdebug">Set Debug</string>
+    
+    <string name="sendspeed">Send Speed:</string>
+    <string name="fast">Fast</string>
+    <string name="medium">Medium</string>
+    <string name="slow">Slow</string>
+    
+</resources>

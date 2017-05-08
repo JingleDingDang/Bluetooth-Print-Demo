@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <string-array name="darkness">
+        <item>Low</item>
+        <item>Normal</item>
+        <item>Dark</item>
+    </string-array>
+    <string-array name="fontsize">
+        <item>Standard font</item>
+        <item>Compress font</item>
+        <item>No assign</item>
+    </string-array>
+    <string-array name="textalign">
+        <item>Left-aligned</item>
+        <item>Align center</item>
+        <item>Right-aligned</item>
+    </string-array>
+    <string-array name="scaletimes_width">
+        <item>No enlarge width</item>
+        <item>elarge 1 times</item>
+        <item>elarge 2 times</item>
+        <item>elarge 3 times</item>
+        <item>elarge 4 times</item>
+        <item>elarge 5 times</item>
+        <item>elarge 6 times</item>
+    </string-array>
+    <string-array name="scaletimes_height">
+        <item>No enlarge height</item>
+        <item>elarge 1 times</item>
+        <item>elarge 2 times</item>
+        <item>elarge 3 times</item>
+        <item>elarge 4 times</item>
+        <item>elarge 5 times</item>
+        <item>elarge 6 times</item>
+    </string-array>
+    <string-array name="scaletimes_width_max2">
+        <item>No enlarge width</item>
+        <item>elarge 1 times</item>
+    </string-array>
+    <string-array name="scaletimes_height_max2">
+        <item>No enlarge height</item>
+        <item>elarge 1 times</item>
+    </string-array>
+    <string-array name="barcodestr">
+        <item>123456789012</item>
+        <item>023456000089</item>
+        <item>023456000089</item>
+        <item>02345600</item>
+        <item>02345600</item>
+        <item>02345600</item>
+        <item>234560</item>
+        <item>*234560*</item>
+        <item>*234560*</item>
+    </string-array>
+    <string-array name="barcodetype">
+        <item>UPC A</item>
+        <item>UPC E</item>
+        <item>EAN 13</item>
+        <item>EAN 8</item>
+        <item>CODE 39</item>
+        <item>ITF</item>
+        <item>CODEBAR</item>
+        <item>CODE 93</item>
+        <item>CODE 128</item>
+    </string-array>
+    <string-array name="barcodestartorgx">
+        <item>No indent</item>
+        <item>Indent 1 character</item>
+        <item>Indent 2 character</item>
+        <item>Indent 3 character</item>
+        <item>Indent 4 character</item>
+        <item>Indent 5 character</item>
+        <item>Indent 6 character</item>
+        <item>Indent 7 character</item>
+        <item>Indent 8 character</item>
+        <item>Indent 9 character</item>
+        <item>Indent 10 character</item>
+        <item>Indent 11 character</item>
+        <item>Indent 12 character</item>
+        <item>Indent 13 character</item>
+        <item>Indent 14 character</item>
+        <item>Indent 15 character</item>
+        <item>Indent 16 character</item>
+    </string-array>
+    <string-array name="barcodewidth">
+        <item>Barcode width 2</item>
+        <item>Barcode width 3</item>
+        <item>Barcode width 4</item>
+        <item>Barcode width 5</item>
+        <item>Barcode width 6</item>
+    </string-array>
+    <string-array name="barcodeheight">
+        <item>Barcode height 24 point</item>
+        <item>Barcode height 48 point</item>
+        <item>Barcode height 72 point</item>
+        <item>Barcode height 96 point</item>
+        <item>Barcode height 120 point</item>
+        <item>Barcode height 144 point</item>
+        <item>Barcode height 168 point</item>
+        <item>Barcode height 192 point</item>
+    </string-array>
+    <string-array name="barcodefonttype">
+        <item>Standard font</item>
+        <item>Compress font</item>
+        <item>No assign</item>
+    </string-array>
+    <string-array name="barcodefontposition">
+        <item>No print barcode text</item>
+        <item>Print upper barcode</item>
+        <item>Print under barcode</item>
+        <item>Barcode upper and under printing</item>
+    </string-array>
+    <string-array name="qrcodetype">
+        <item>QR code</item>
+    </string-array>
+    <string-array name="qrcodewidth">
+        <item>QR code width 2</item>
+        <item>QR code width 3</item>
+        <item>QR code width 4</item>
+        <item>QR code width 5</item>
+        <item>QR code width 6</item>
+    </string-array>
+    <string-array name="qrcodestartorgx">
+        <item>No indent</item>
+        <item>Indent 1 character</item>
+        <item>Indent 2 character</item>
+        <item>Indent 3 character</item>
+        <item>Indent 4 character</item>
+        <item>Indent 5 character</item>
+        <item>Indent 6 character</item>
+        <item>Indent 7 character</item>
+        <item>Indent 8 character</item>
+        <item>Indent 9 character</item>
+        <item>Indent 10 character</item>
+        <item>Indent 11 character</item>
+        <item>Indent 12 character</item>
+        <item>Indent 13 character</item>
+        <item>Indent 14 character</item>
+        <item>Indent 15 character</item>
+        <item>Indent 16 character</item>
+    </string-array>
+    <string-array name="errorcorrectionlevel">
+        <item>Error level 1</item>
+        <item>Error level 2</item>
+        <item>Error level 3</item>
+        <item>Error level 4</item>
+    </string-array>
+
+</resources>

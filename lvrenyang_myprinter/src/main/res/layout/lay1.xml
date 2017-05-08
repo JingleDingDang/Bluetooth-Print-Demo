@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#158684"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp" >
+
+            <Button
+                android:id="@+id/btPicture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:gravity="left|center"
+                android:paddingLeft="70dp"
+                android:text="@string/picture" />
+
+            <Button
+                android:id="@+id/btBWPicture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/btPicture"
+                android:layout_centerVertical="true"
+                android:gravity="left|center"
+                android:paddingLeft="70dp"
+                android:text="@string/binaryimage" />
+
+            <Button
+                android:id="@+id/btCurve"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/btBWPicture"
+                android:layout_centerVertical="true"
+                android:gravity="left|center"
+                android:paddingLeft="70dp"
+                android:text="@string/curve" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp" >
+
+            <Button
+                android:id="@+id/btFormatText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:gravity="left|center"
+                android:paddingLeft="70dp"
+                android:text="@string/formattext" />
+
+            <Button
+                android:id="@+id/btPlainText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/btFormatText"
+                android:layout_centerVertical="true"
+                android:gravity="left|center"
+                android:paddingLeft="70dp"
+                android:text="@string/text" />
+
+            <Button
+                android:id="@+id/btForm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/btPlainText"
+                android:layout_centerVertical="true"
+                android:gravity="left|center"
+                android:paddingLeft="70dp"
+                android:text="@string/form" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp" >
+
+            <Button
+                android:id="@+id/btBarcode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:gravity="left|center"
+                android:paddingLeft="70dp"
+                android:text="@string/barcode" />
+
+            <Button
+                android:id="@+id/btQrcode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/btBarcode"
+                android:layout_centerVertical="true"
+                android:gravity="left|center"
+                android:paddingLeft="70dp"
+                android:text="@string/qrcode" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8000ff"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp" >
+
+            <Button
+                android:id="@+id/btConnectPrinterMac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:gravity="left|center"
+                android:paddingLeft="70dp"
+                android:text="@string/connectprinterbtmac" />
+
+            <Button
+                android:id="@+id/btConnectPrinterPaired"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/btConnectPrinterMac"
+                android:gravity="left|center"
+                android:paddingLeft="70dp"
+                android:text="@string/connectpairedprinter" />
+
+            <Button
+                android:id="@+id/btConnectPrinterSearched"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/btConnectPrinterPaired"
+                android:gravity="left|center"
+                android:paddingLeft="70dp"
+                android:text="@string/searchprinterthenconnect" />
+
+            <Button
+                android:id="@+id/btConnectBLE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/btConnectPrinterSearched"
+                android:gravity="left|center"
+                android:paddingLeft="70dp"
+                android:text="@string/searchble" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" >
+
+            <Button
+                android:id="@+id/btConnectIP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:gravity="left|center"
+                android:paddingLeft="70dp"
+                android:text="@string/connectnetprinter" />
+
+            <Button
+                android:id="@+id/btConnectUSB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/btConnectIP"
+                android:layout_centerVertical="true"
+                android:gravity="left|center"
+                android:paddingLeft="70dp"
+                android:text="@string/connectusbprinter" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:visibility="gone" >
+
+            <Button
+                android:id="@+id/btSetPrinterPara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:gravity="left|center"
+                android:paddingLeft="70dp"
+                android:text="@string/setprinterpara"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:visibility="gone" >
+
+            
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:visibility="gone" >
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" >
+
+            <Button
+                android:id="@+id/btDisconnect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:gravity="left|center"
+                android:paddingLeft="70dp"
+                android:text="Disconnect" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <Button
+                android:id="@+id/btExit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:gravity="left|center"
+                android:paddingLeft="70dp"
+                android:text="Exit" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

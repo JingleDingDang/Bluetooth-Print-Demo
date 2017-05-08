@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.linqu.bledemo"
+
+    android:installLocation="internalOnly"
+    >
+
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.bluetooth"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.usb.host"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="true" />
+
+
+    <!-- 允许程序连接到已配对的蓝牙设备 -->
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <!-- 允许程序发现和配对蓝牙设备 -->
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <!--6.0之后需要开启模糊定位权限-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.linqu.bledemo.myactivity.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+                <data android:mimeType="text/plain" />
+                <data android:mimeType="*/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                android:resource="@xml/device_filter" />
+        </activity>
+        <activity
+            android:name="com.example.linqu.bledemo.myactivity.AppStart"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.linqu.bledemo.myactivity.SearchBTActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.linqu.bledemo.myactivity.SearchBLEActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.linqu.bledemo.myactivity.ConnectBTMacActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.linqu.bledemo.myactivity.ConnectBTPairedActivity"
+            android:screenOrientation="portrait" />
+        <!--<activity-->
+        <!--android:name="com.example.linqu.bledemo.myactivity.TC03Activity"-->
+        <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+        android:name="com.example.linqu.bledemo.myactivity.ConnectIPActivity"
+        android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.linqu.bledemo.myactivity.ConnectUSBActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.linqu.bledemo.myactivity.SetKeyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.linqu.bledemo.myactivity.CheckKeyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.linqu.bledemo.myactivity.FormatTextActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.linqu.bledemo.myactivity.PlainTextActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.linqu.bledemo.myactivity.PictureActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.linqu.bledemo.myactivity.BWPicActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.linqu.bledemo.myactivity.CurveActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.linqu.bledemo.myactivity.CutterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.linqu.bledemo.myactivity.FormActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.linqu.bledemo.myactivity.BarcodeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.linqu.bledemo.myactivity.QrcodeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.linqu.bledemo.myactivity.JSAndroidActivity"
+            android:screenOrientation="portrait" />
+        <!--<activity-->
+        <!--android:name="com.example.linqu.bledemo.myactivity.CmdActivity"-->
+        <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+        android:name="com.example.linqu.bledemo.myactivity.UpdateProgramActivity"
+        android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.linqu.bledemo.myactivity.SetBtParaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.linqu.bledemo.myactivity.FileManager"
+            android:screenOrientation="portrait" />
+
+        <service android:name="com.example.linqu.bledemo.myprinter.WorkService" />
+    </application>
+
+</manifest>

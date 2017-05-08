@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView
+            android:layout_width="61sp"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/editTextInputBtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:hint="Please input bt name."
+            android:paddingLeft="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout01"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView
+            android:layout_width="61sp"
+            android:layout_height="wrap_content"
+            android:text="Key"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/editTextInputBtKey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:hint="Please input bt key."
+            android:paddingLeft="10dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonSetBtPara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linearLayout02"
+        android:text="@string/set" />
+
+</RelativeLayout>

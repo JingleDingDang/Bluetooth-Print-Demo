@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9F79EE"
+    android:padding="10dp" >
+
+    <EditText
+        android:id="@+id/editTextSend"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:ems="10"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:maxLines="100" >
+
+        <requestFocus />
+    </EditText>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextSend"
+        android:layout_alignRight="@+id/editTextSend"
+        android:layout_below="@+id/editTextSend"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radioButtonUTF8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/utf8" />
+
+        <RadioButton
+            android:id="@+id/radioButtonGBK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="@string/gbk" />
+        
+        <RadioButton
+            android:id="@+id/radioButtonKOREA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="@string/korea" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" >
+
+        <Button
+            android:id="@+id/buttonSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/send" />
+
+        <Button
+            android:id="@+id/buttonClearSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/clearsend" />
+    </LinearLayout>
+
+</RelativeLayout>

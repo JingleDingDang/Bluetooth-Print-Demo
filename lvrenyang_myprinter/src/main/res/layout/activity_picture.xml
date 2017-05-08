@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/textViewPaperSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/radioGroupPaperSize"
+        android:layout_alignTop="@+id/radioGroupPaperSize"
+        android:gravity="center_vertical"
+        android:text="@string/paperwidthsem"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupPaperSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/textViewPaperSize"
+        android:contentDescription="@string/paperwidth"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radioButton2Inch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="@string/paperwidth2inch" />
+
+        <RadioButton
+            android:id="@+id/radioButton3Inch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/paperwidth3inch" />
+
+        <RadioButton
+            android:id="@+id/radioButton4Inch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/paperwidth4inch" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewSendSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/radioGroupSendSpeed"
+        android:layout_alignTop="@+id/radioGroupSendSpeed"
+        android:layout_below="@+id/textViewPaperSize"
+        android:gravity="center_vertical"
+        android:text="@string/sendspeed"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupSendSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/radioGroupPaperSize"
+        android:layout_toRightOf="@+id/textViewSendSpeed"
+        android:contentDescription="@string/sendspeed"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radioButtonSpeedFast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="@string/fast" />
+
+        <RadioButton
+            android:id="@+id/radioButtonSpeedMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/medium" />
+
+        <RadioButton
+            android:id="@+id/radioButtonSpeedSlow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/slow" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonPrintPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/radioGroupSendSpeed"
+        android:text="@string/printpicture" />
+
+    <ImageView
+        android:id="@+id/imageViewPicture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/buttonPrintPicture"
+        android:contentDescription="@string/contentdescription"
+        android:maxHeight="1920dp"
+        android:maxWidth="1080dp" />
+
+</RelativeLayout>

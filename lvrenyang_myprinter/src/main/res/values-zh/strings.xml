@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyPrinter</string>
+    <string name="menu_exit">退出</string>
+    <string name="fontsize">字体大小</string>
+    <string name="fontsize_12x24">12x24</string>
+    <string name="fontsize_9x17">9x17</string>
+    <string name="fontsize_standard">标准字体</string>
+    <string name="darkness">浓度</string>
+    <string name="scaletimes">放大倍数</string>
+    <string name="width">宽</string>
+    <string name="height">高</string>
+    <string name="blackwhitereverse">黑白反显</string>
+    <string name="underline">下划线</string>
+    <string name="light">稍淡</string>
+    <string name="darkness_standard">一般</string>
+    <string name="darkness_dark">很浓</string>
+    <string name="scaletimes_0">不放大</string>
+    <string name="bold">加粗</string>
+    <string name="underline1">1点下划线</string>
+    <string name="underline2">2点下划线</string>
+    <string name="textalign">对齐方式</string>
+    <string name="textalign_left">左对齐</string>
+    <string name="textalign_center">居中对齐</string>
+    <string name="textalign_right">右对齐</string>
+    <string name="scaletimes_width_0">宽不放大</string>
+    <string name="scaletimes_height_0">高不放大</string>
+    <string name="upsidedownprint">倒置打印</string>
+    <string name="turnright90">右转90度</string>
+    <string name="lineheight">行高</string>
+    <string name="rightspace">右间距</string>
+    <string name="barcode">条形码</string>
+    <string name="qrcode">二维码</string>
+    <string name="text">文本</string>
+    <string name="barcodetype">条码类型</string>
+    <string name="startorgx">起始位置</string>
+    <string name="barcodewidth">条码宽度</string>
+    <string name="barcodeheight">条码高度</string>
+    <string name="barcodefonttype">条码文本字体类型</string>
+    <string name="barcodefontposition">条码文本位置</string>
+    <string name="qrcodestartorgx">二维码起始位置</string>
+    <string name="qrcodetype">二维码类型</string>
+    <string name="qrcodewidth">二维码宽度</string>
+    <string name="errorcorrectionlevel">纠错等级</string>
+
+    <!-- activity_barcode.xml -->
+    <string name="printbarcode">打印条形码</string>
+
+    <!-- activity_checkkey.xml -->
+    <string name="checkkeyhint">请输入8个字符的密钥进行验证</string>
+    <string name="verify">验证</string>
+
+    <!-- activity_cmd.xml -->
+    <string name="send">发送</string>
+    <string name="clearsend">清空发送</string>
+    <string name="clearreceive">清空接收</string>
+    <string name="recv">Recv:</string>
+
+    <!-- activity_connectbtmac.xml -->
+    <string name="inputbtmachint">在此输入蓝牙地址，形如01:23:45:67:89:AB</string>
+    <string name="connectbtmacaddress">连接指定蓝牙打印机</string>
+
+    <!-- activity_connectbtpaired.xml -->
+
+
+    <!-- activity_connectip.xml -->
+    <string name="ip">IP</string>
+    <string name="port">Port</string>
+    <string name="connect">连接</string>
+
+    <!-- activity_connectusb.xml -->
+
+
+    <!-- activity_curve.xml -->
+    <string name="printcurve">打印曲线</string>
+
+    <!-- activity_cutter.xml -->
+    <string name="fullcut">全切</string>
+    <string name="halfcut">半切</string>
+    <string name="feedandcut">走纸到切刀位置并切纸</string>
+
+    <!-- activity_form.xml -->
+    <string name="printform">打印表格</string>
+
+    <!-- activity_formattext.xml -->
+    <string name="printenglishstring">打印英文</string>
+    <string name="printchinesestring">打印中英文</string>
+    <string name="printrussianstring">打印俄文</string>
+
+    <!-- activity_picture.xml -->
+    <string name="paperwidthsem">纸张宽度：</string>
+    <string name="paperwidth">纸张宽度</string>
+    <string name="paperwidth2inch">2寸</string>
+    <string name="paperwidth3inch">3寸</string>
+    <string name="paperwidth4inch">4寸</string>
+    <string name="printpicture">打印图片</string>
+    <string name="contentdescription"></string>
+
+    <!-- activity_qrcode.xml -->
+    <string name="printqrcode">打印二维码</string>
+    <string name="welcometouse">欢迎使用</string>
+    <string name="printepsonqrcode">使用EPSON命令打印二维码</string>
+    <string name="size">大小</string>
+
+    <!-- activity_searchbt.xml -->
+    <string name="search">Search</string>
+
+    <!-- activity_setkey.xml -->
+    <string name="searchkeyhint">请输入8个字符以设置打印机密钥</string>
+    <string name="set">设置</string>
+
+    <!-- lay1.xml -->
+    <string name="picture">图片</string>
+    <string name="binaryimage">文字图片</string>
+    <string name="curve">曲线</string>
+    <string name="formattext">格式化文本</string>
+    <string name="form">表格</string>
+
+    <!-- lay2.xml -->
+    <string name="webprint">网页打印</string>
+    <string name="browser">浏览器</string>
+
+    <!-- lay3.xml -->
+    <string name="sendcmd">发送命令</string>
+    <string name="cuttercmd">切刀命令</string>
+
+    <!-- lay4.xml -->
+    <string name="connectprinterbtmac">连接指定打印机</string>
+    <string name="connectpairedprinter">连接已配对打印机</string>
+    <string name="searchprinterthenconnect">搜索并连接</string>
+    <string name="searchble">连接4.0蓝牙</string>
+    <string name="connectnetprinter">连接网络打印机</string>
+    <string name="connectusbprinter">连接USB打印机</string>
+    <string name="setprinterpara">设置打印机参数</string>
+    <string name="updateprinterprogram">更新程序</string>
+    <string name="setkey">设置密钥</string>
+    <string name="verifykey">验证密钥</string>
+    <string name="setbtpara">设置打印机蓝牙参数</string>
+
+    <!-- myprinter_main.xml -->
+    <string name="textandpicture">图文</string>
+    <string name="web">网页</string>
+    <string name="command">命令</string>
+    <string name="settings">设置</string>
+
+    <!-- start_private.xml -->
+    <string name="welcomes">欢迎使用</string>
+
+    <!-- xxxactivity.java -->
+    <string name="toast_success">成功</string>
+    <string name="toast_fail">失败</string>
+    <string name="toast_notconnect">请先连接打印机</string>
+    <string name="toast_usbpermit">请允许程序使用USB设备，并再次点击此按钮</string>
+    <string name="updateprogram">更新程序</string>
+    <string name="sendtouart">发往串口</string>
+    <string name="sendtext">发送文本</string>
+    <string name="menu_setdebug">开启调试</string>
+    <string name="sendspeed">发送速度：</string>
+    <string name="fast">快</string>
+    <string name="medium">中</string>
+    <string name="slow">慢</string>
+
+</resources>
